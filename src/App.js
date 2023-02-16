@@ -43,7 +43,7 @@ const App = () => {
         <div className="weather-image flex flex-col gap-4 justify-center items-center">
           <p className="text-xl font-bold text-white">WEATHER APP</p>
           <input className='input' type="text" list='data' onChange={handleInputChange} ref={nameRef} />
-          <datalist id='data'>
+          <datalist id='data' className='datalist'>
             <option>Kathmandu</option>
             <option>Pokhara</option>
             <option>Dharan</option>
